@@ -152,9 +152,11 @@ body {
   font-size: 26px;
 }
 
-ul.list.tags li {
-  display: inline-block;
-  margin-right: 8px;
+ul.list.tags {
+  li {
+    display: inline-block;
+    margin-right: 8px;
+  }
 }
 
 @keyframes active {
